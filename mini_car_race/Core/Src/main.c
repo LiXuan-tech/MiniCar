@@ -122,7 +122,7 @@ int main(void)
 	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_ALL);
 	HAL_TIM_Base_Start_IT(&htim2);
   /* USER CODE END 2 */
-
+aaaaaaaaa
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
