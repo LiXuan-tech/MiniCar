@@ -122,11 +122,12 @@ int main(void)
 	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_ALL);
 	HAL_TIM_Base_Start_IT(&htim2);
   /* USER CODE END 2 */
-aaaaaaaaa
+	
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  printf("Hello World!");
     uint16_t mux_value;
     float gyro_z;					//stm32f103c8t6不支持浮点数（FPU）运算，引入浮点运算可能会慢
     float left_encoder_speed;   
